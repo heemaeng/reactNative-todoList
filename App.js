@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 import Header from './components/Header';
+import TaskModal from './components/TaskModal';
 import TodoItem from './components/TodoItem';
 
 export default class App extends React.Component {
@@ -10,6 +11,7 @@ export default class App extends React.Component {
         <Header />
         <TodoItem title="리액트 네이티브 앱 만들기" done={true}/>
         <TodoItem title="스터디 진행하기" done={false}/>
+        <TaskModal isVisible={true} />
       </SafeAreaView>
     );
   }
