@@ -1,6 +1,10 @@
 # reactNative-todoList
 react-native를 활용한 Tode list
 
+## todo-list 예제 따라하기
+
+https://catchdream.tistory.com/176?category=829219
+
 ## react-native emulator 실행
 
 ### android
