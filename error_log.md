@@ -21,5 +21,5 @@ error: SyntaxError: C:\github\react-todoList\App.js: Only one default export all
 
     Export defalut를 아래에서 한번더 정의해 주어서 오류가 발생
 
-    <https://ock-nomad.tistory.com/25>
+    https://ock-nomad.tistory.com/25
 
