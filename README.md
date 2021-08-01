@@ -1,7 +1,21 @@
 # reactNative-todoList
 react-native를 활용한 Tode list
 
-[윈도우에서 react-native 개발 환경 구축]
+## react-native emulator 실행
+
+### android
+```bash
+cd react-todoList
+npm run android
+```
+
+### iOS
+```bash
+cd react-todoList
+npm run ios
+```
+
+## [윈도우에서 react-native 개발 환경 구축]
 [Create a react-native development environment in Windows]
 
 출처 : https://dev-yakuza.posstree.com/ko/react-native/install-on-windows/
@@ -177,4 +191,3 @@ npm run android
   
   사용자가 AMD,
   Android Emulator Hypervisor Driver for AMD Processors (installer)
-  
