@@ -5,7 +5,7 @@ import {
     TouchableOpacity,
     StyleSheet,
 } from 'react-native'
-import Icon from 'react-native-vector-icons/FontAwesome';
+import FontAwesome from 'react-native-vector-icons/FontAwesome';
 
 const TodoItem = ({
     title,
@@ -18,7 +18,7 @@ const TodoItem = ({
                     activeOpacity={0.8}
                     style={done ? styles.done : styles.check}
                 >
-                    <Icon name="check" color={done ? '#FFFFFF' : '#E0E0E0'} size={14} />
+                    <FontAwesome name="check" color={done ? '#FFFFFF' : '#E0E0E0'} size={14} />
                 </TouchableOpacity>
                 <Text style={styles.title}>
                     {title}
