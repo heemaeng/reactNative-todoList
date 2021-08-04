@@ -5,26 +5,32 @@ import {
     TouchableOpacity,
     StyleSheet,
 } from 'react-native'
-import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import FontAwesome from 'react-native-vector-icons/FontAwesome'
+import Swipeable from 'react-native-gesture-handler/Swipeable'
+import DeleteButton from './DeleteButton'
 
 const TodoItem = ({
     title,
     done,
 }) => {
     return (
-        <View style={styles.container}>
-            <View style={styles.todo}>
-                <TouchableOpacity
-                    activeOpacity={0.8}
-                    style={done ? styles.done : styles.check}
-                >
-                    <FontAwesome name="check" color={done ? '#FFFFFF' : '#E0E0E0'} size={14} />
-                </TouchableOpacity>
-                <Text style={styles.title}>
-                    {title}
-                </Text>
+        <Swipeable
+            renderRightActions={() => <DeleteButton />}
+        >
+            <View style={styles.container}>
+                <View style={styles.todo}>
+                    <TouchableOpacity
+                        activeOpacity={0.8}
+                        style={done ? styles.done : styles.check}
+                    >
+                        <FontAwesome name="check" color={done ? '#FFFFFF' : '#E0E0E0'} size={14} />
+                    </TouchableOpacity>
+                    <Text style={styles.title}>
+                        {title}
+                    </Text>
+                </View>
             </View>
-        </View>
+        </Swipeable>
     )
 }
 

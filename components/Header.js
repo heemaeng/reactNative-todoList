@@ -5,8 +5,8 @@ import {
     TouchableOpacity,
     StyleSheet,
     Platform,
-} from 'react-native';
-import Icon from 'react-native-vector-icons/Ionicons';
+} from 'react-native'
+import Ionicons from 'react-native-vector-icons/Ionicons'
 
 const Header = () => {
     return (
@@ -18,7 +18,7 @@ const Header = () => {
                 activeOpacity={0.8}
                 style={styles.button}
             >
-                <Icon name='ios-add' color='#FFFFFF' size={24} />
+                <Ionicons name='ios-add' color='#FFFFFF' size={24} />
             </TouchableOpacity>
         </View>
     )
@@ -57,4 +57,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default Header;
+export default Header

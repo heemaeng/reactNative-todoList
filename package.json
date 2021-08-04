@@ -12,7 +12,9 @@
   "dependencies": {
     "react": "17.0.1",
     "react-native": "0.64.2",
+    "react-native-gesture-handler": "^1.10.3",
     "react-native-modal": "^12.0.3",
+    "react-native-simple-modal": "^9.0.1",
     "react-native-vector-icons": "^8.1.0"
   },
   "devDependencies": {
