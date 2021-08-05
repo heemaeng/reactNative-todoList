@@ -24,52 +24,50 @@ npm run ios
 ## [윈도우에서 react-native 개발 환경 구축]
 [Create a react-native development environment in Windows]
 
-출처 : https://dev-yakuza.posstree.com/ko/react-native/install-on-windows/
+  출처 : https://dev-yakuza.posstree.com/ko/react-native/install-on-windows/
 
-본 개발자는 아직 mac book을 가지고 있지 않기 때문에 부득이하게 윈도우로 작업을 하기로 했다.
+  본 개발자는 아직 mac book을 가지고 있지 않기 때문에 부득이하게 윈도우로 작업을 하기로 했다.
 
-대부분의 내용은 나의 의견이 아니라 출처에 관한 내용을 정리한 것으로 문제가 있을시 수정할 예정.
+  대부분의 내용은 나의 의견이 아니라 출처에 관한 내용을 정리한 것으로 문제가 있을시 수정할 예정.
 
-다시 이것을 볼때 이해를 높이기 위해서 간단하고 명료한 설명만 써놓음.
+  다시 이것을 볼때 이해를 높이기 위해서 간단하고 명료한 설명만 써놓음.
 
-1. 필요한 것
 
-Nodejs, Python, jdk, Android studio
+## 1. 필요한 것
 
-2. react-native 개발 방법 (2번을 추천해서 2번씀)
+  Nodejs, Python, jdk, Android studio
 
-(1) Expo CLI
-(2) React Native CLI (o)
+## 2. react-native 개발 방법 (2번을 추천해서 2번씀)
 
-3. 순서
+  (1) Expo CLI
+  (2) React Native CLI (o)
 
-(1) Chocolatey 설치
+## 3. 순서
 
-//cmd//
+### (1) Chocolatey 설치
+
+#### cmd
+
+```bash
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 
 choco –version
-
-//result//
 0.10.15
-//버전이 나오는지 체크(다를수도있는데 그냥 설치되있는지만 보면됨)//
-
+```
 
 (2) Nodejs 설치
 
-//cmd//
+#### cmd
+
+```bash
 choco install -y nodejs.install
 
 node --version
+v12.6.0
 
 npm --version
-
-//result//
-v12.6.0
 6.9.0
-//버전이 나오는지 체크(다를수도있는데 그냥 설치되있는지만 보면됨)//
-
-
+```
 (3) Python 설치
 
 //cmd//
