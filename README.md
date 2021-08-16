@@ -55,9 +55,8 @@ choco –version
 0.10.15
 ```
 
-(2) Nodejs 설치
 
-#### cmd
+(2) Nodejs 설치
 
 ```bash
 choco install -y nodejs.install
@@ -68,48 +67,42 @@ v12.6.0
 npm --version
 6.9.0
 ```
+
+
 (3) Python 설치
 
-//cmd//
+```bash
 choco install -y python2
 
 python --version
-
-//result//
 2.7.16
-//버전이 나오는지 체크(다를수도있는데 그냥 설치되있는지만 보면됨)//
+```
 
 
 (4) React Native CLI 설치
 
-//cmd//
+```bash
 npm install -g react-native-cli
 
 npx react-native --version
-
-//result//
 react-native-cli: 2.0.1
 react-native: n/a - not inside a React Native project
-//버전이 나오는지 체크(다를수도있는데 그냥 설치되있는지만 보면됨)//
+```
 
 
 (5) JDK 설치
 
-//cmd//
+```bash
 choco install -y jdk8
 
 java -version
-
-javac -version
-
-//result//
 openjdk version "1.8.0_222"
 OpenJDK Runtime Environment (AdoptOpenJDK)(build 1.8.0_222-b10)
 OpenJDK 64-Bit Server VM (AdoptOpenJDK)(build 25.222-b10, mixed mode)
 
+javac -version
 javac 1.8.0_222
-//버전이 나오는지 체크(다를수도있는데 그냥 설치되있는지만 보면됨)//
-
+```
 
 (6) 안드로이드 스튜디오 설치
 
@@ -147,29 +140,25 @@ Path 변수에
 C:\Users\[사용자 이름]\AppData\Local\Android\Sdk\platform-tools
 값 추가
 
-//cmd//
+```bash
 adb
 
-//result//
 Android Debug Bridge version 1.0.41
 Version 29.0.1-5644136
 Installed as /Users/jeonghean_kim/Library/Android/sdk/platform-tools/adb
-//버전이 나오는지 체크(다를수도있는데 그냥 설치되있는지만 보면됨)//
-
+```
 
 (8) react-native 프로젝트 생성 및 확인
 
-//cmd//
+SampleApp이라는 디렉토리를 만들고 그안에 SampleApp의 새로운 react-native 프로젝트를 생성
+```bash
 npx react-native init SampleApp
-//SampleApp이라는 디렉토리를 만들고 그안에 SampleApp의 새로운 react-native 프로젝트를 생성
-
-//cmd//
 cd SampleApp
 npm run android
+````
 
-//result//
 에뮬레이터에 Welcom to React라는 화면이 뜸
-//아마 안되는 경우 있음//
+  아마 안되는 경우 있음
 
 
 (9) 에뮬이 안뜨는 경우
