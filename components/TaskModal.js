@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import {
     View,
     TextInput,
     StyleSheet,
-} from 'react-native'
-import Modal from 'react-native-modal'
+} from 'react-native';
+import Modal from 'react-native-modal';
 
 const TaskModal = ({
     isVisible,
@@ -23,7 +23,7 @@ const TaskModal = ({
             </View>
         </Modal>
     )
-}
+};
 
 const styles = StyleSheet.create({
     modal: {
@@ -36,6 +36,6 @@ const styles = StyleSheet.create({
         borderTopLeftRadius: 8,
         borderTopRightRadius: 8,
     },
-})
+});
 
-export default TaskModal
+export default TaskModal;
