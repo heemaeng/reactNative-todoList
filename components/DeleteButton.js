@@ -14,7 +14,7 @@ const DeleteButton = () => {
                 삭제
             </Text>
         </TouchableOpacity>
-    )
+    );
 }
 
 export default DeleteButton
