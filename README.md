@@ -3,6 +3,10 @@ react-native를 활용한 Tode list
 
 react-native 공부를 위한 예제 실습일 뿐입니다... 코딩괴물들의 예제와 방법 정말 감사합니다!
 
+## 필요한 정보
+
+React로 todo 리스트 만들기
+
 ## todo-list 예제 따라하기
 
 https://catchdream.tistory.com/176?category=829219
